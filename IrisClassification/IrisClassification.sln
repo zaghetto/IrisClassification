@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IrisClassification", "IrisClassification.vcxproj", "{6E00CDEF-4E68-44A8-9AAC-3CD2E7EBC774}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RedesNeurais", "..\RedesNeurais\RedesNeurais\RedesNeurais.vcxproj", "{78783CB2-0934-4BCB-870E-9A78EB5C2054}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://azaghetto.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = IrisClassification.vcxproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\RedesNeurais\\RedesNeurais\\RedesNeurais.vcxproj
+		SccProjectName2 = ../RedesNeurais/RedesNeurais
+		SccLocalPath2 = ..\\RedesNeurais\\RedesNeurais
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E00CDEF-4E68-44A8-9AAC-3CD2E7EBC774}.Debug|ARM.ActiveCfg = Debug|Win32
+		{6E00CDEF-4E68-44A8-9AAC-3CD2E7EBC774}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6E00CDEF-4E68-44A8-9AAC-3CD2E7EBC774}.Debug|Win32.Build.0 = Debug|Win32
+		{6E00CDEF-4E68-44A8-9AAC-3CD2E7EBC774}.Debug|x64.ActiveCfg = Debug|Win32
+		{6E00CDEF-4E68-44A8-9AAC-3CD2E7EBC774}.Release|ARM.ActiveCfg = Release|Win32
+		{6E00CDEF-4E68-44A8-9AAC-3CD2E7EBC774}.Release|Win32.ActiveCfg = Debug|Win32
+		{6E00CDEF-4E68-44A8-9AAC-3CD2E7EBC774}.Release|Win32.Build.0 = Debug|Win32
+		{6E00CDEF-4E68-44A8-9AAC-3CD2E7EBC774}.Release|x64.ActiveCfg = Release|Win32
+		{78783CB2-0934-4BCB-870E-9A78EB5C2054}.Debug|ARM.ActiveCfg = Debug|Win32
+		{78783CB2-0934-4BCB-870E-9A78EB5C2054}.Debug|Win32.ActiveCfg = Debug|Win32
+		{78783CB2-0934-4BCB-870E-9A78EB5C2054}.Debug|Win32.Build.0 = Debug|Win32
+		{78783CB2-0934-4BCB-870E-9A78EB5C2054}.Debug|x64.ActiveCfg = Debug|Win32
+		{78783CB2-0934-4BCB-870E-9A78EB5C2054}.Release|ARM.ActiveCfg = Release|Win32
+		{78783CB2-0934-4BCB-870E-9A78EB5C2054}.Release|Win32.ActiveCfg = Debug|Win32
+		{78783CB2-0934-4BCB-870E-9A78EB5C2054}.Release|Win32.Build.0 = Debug|Win32
+		{78783CB2-0934-4BCB-870E-9A78EB5C2054}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

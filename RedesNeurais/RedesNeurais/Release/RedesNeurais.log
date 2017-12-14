@@ -1,0 +1,36 @@
+﻿Build started 14/12/2017 14:06:18.
+     1>Project "E:\Workspaces\IrisRNA\RedesNeurais\RedesNeurais\RedesNeurais.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\opencv\build\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D REDESNEURAIS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LibRNA.cpp
+         LibRNA.cpp
+     1>LibRNA.cpp(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>LibRNA.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+     1>LibRNA.cpp(70): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>LibRNA.cpp(71): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>LibRNA.cpp(78): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>LibRNA.cpp(79): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>LibRNA.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+     1>LibRNA.cpp(105): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>LibRNA.cpp(109): warning C4018: '<' : signed/unsigned mismatch
+     1>LibRNA.cpp(112): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>LibRNA.cpp(138): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>LibRNA.cpp(217): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>LibRNA.cpp(258): warning C4018: '<' : signed/unsigned mismatch
+     1>LibRNA.cpp(260): warning C4018: '<' : signed/unsigned mismatch
+     1>LibRNA.cpp(263): warning C4018: '<' : signed/unsigned mismatch
+     1>LibRNA.cpp(273): warning C4018: '<' : signed/unsigned mismatch
+     1>LibRNA.cpp(275): warning C4018: '<' : signed/unsigned mismatch
+     1>LibRNA.cpp(278): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Workspaces\IrisRNA\IrisClassification\Release\RedesNeurais.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\opencv\build\x64\vc14\lib opencv_core2411d.lib opencv_imgproc2411d.lib opencv_highgui2411d.lib opencv_ml2411d.lib opencv_video2411d.lib opencv_features2d2411d.lib opencv_calib3d2411d.lib opencv_objdetect2411d.lib opencv_contrib2411d.lib opencv_legacy2411d.lib opencv_flann2411d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Workspaces\IrisRNA\IrisClassification\Release\RedesNeurais.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Workspaces\IrisRNA\IrisClassification\Release\RedesNeurais.lib" /MACHINE:X86 /SAFESEH /DLL Release\LibRNA.obj
+     1>LINK : fatal error LNK1181: cannot open input file 'opencv_core2411d.lib'
+     1>Done Building Project "E:\Workspaces\IrisRNA\RedesNeurais\RedesNeurais\RedesNeurais.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.68

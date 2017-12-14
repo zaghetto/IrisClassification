@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ImportGroup Label="PropertySheets" />
+	<PropertyGroup Label="UserMacros" />
+	<PropertyGroup>
+		<ExecutablePath>$(OPENCV_BIN);$(ExecutablePath)</ExecutablePath>
+		<LibraryPath>$(OPENCV_LIB);$(LibraryPath)</LibraryPath>
+		<_PropertySheetDisplayName>PropertySheet_debug_x86</_PropertySheetDisplayName>
+		<IncludePath>%(OPENCV_INCLUDE);$(IncludePath)</IncludePath>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+		<Link>
+			<AdditionalLibraryDirectories>$(OPENCV_LIB);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<AdditionalDependencies>opencv_core2411d.lib;opencv_imgproc2411d.lib;opencv_highgui2411d.lib;opencv_ml2411d.lib;opencv_video2411d.lib;opencv_features2d2411d.lib;opencv_calib3d2411d.lib;opencv_objdetect2411d.lib;opencv_contrib2411d.lib;opencv_legacy2411d.lib;opencv_flann2411d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+		</Link>
+		<ClCompile>
+			<AdditionalIncludeDirectories>$(OPENCV_INCLUDE);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ClCompile>
+	</ItemDefinitionGroup>
+	<ItemGroup />
+</Project>

@@ -1,0 +1,38 @@
+﻿Build started 14/12/2017 15:15:28.
+     1>Project "E:\Workspaces\IrisRNA\RedesNeurais\RedesNeurais\RedesNeurais.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D REDESNEURAIS_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LibRNA.cpp
+         LibRNA.cpp
+     1>c:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(70): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(71): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(78): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(79): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(105): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(109): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(112): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(138): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(217): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(258): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(260): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(263): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(273): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(275): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\workspaces\irisrna\redesneurais\redesneurais\librna.cpp(278): warning C4018: '<' : signed/unsigned mismatch
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\Workspaces\IrisRNA\IrisClassification\Debug\RedesNeurais.lib" /NOLOGO Debug\LibRNA.obj
+         RedesNeurais.vcxproj -> E:\Workspaces\IrisRNA\IrisClassification\Debug\RedesNeurais.lib
+     1>Done Building Project "E:\Workspaces\IrisRNA\RedesNeurais\RedesNeurais\RedesNeurais.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.20
